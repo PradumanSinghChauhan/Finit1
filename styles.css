@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.top{
+  display:flex;
+  gap: 2rem;
+  justify-content:center;
+  padding: 1rem 2rem;
+  background-color: #0a0a0a;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  color:white;
+}
+
+.line{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.line:hover{
+  color: #00f7ff;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(26, 6, 6, 0.7), rgba(0,0,0,0.7)),
+              url('https://images.unsplash.com/photo-1555949963-aa79dcee981d?auto=format&fit=crop&w=1470&q=80') center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  animation: fadeIn 2s ease-in;
+}
+
+.hero p {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: #ccc;
+  animation: fadeIn 3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  } to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Other Sections Placeholder */
+section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+
+section p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+  }
+
+.image{
+  padding-top:20px;
+}
+.quick{
+  font-weight:bold;
+  font-size:24px;
+  padding-bottom:10px;
+  padding-top:10px;
+}
+.bottom{
+  padding-left:10%;
+}
+.h{
+  padding-top:6px;
+  font-size:19px;
+}
+.footer{
+  padding-top:35px;
+  padding-bottom:30px;
+  text-align:center;
+  font-weight:600;
+  font-size:20px;
+}
+.our{
+  font-weight:bold;
+  font-size:50px;
+  text-align:center;
+  font-style:arial;
+}
+.sbi{
+  justify-self: center;
+  padding-bottom:30px;
+}
+.i{
+  display:wrap;
+  justify-self: center;
+  padding-bottom:50px;
+}
+.im{
+  height:300px;
+  width:300px;
+  justify-self: center;
+  align-content:center;
+  margin-right:20px;
+  padding-left:25px;
+  padding-bottom:25px;
+}
+.ours{
+  font-weight:bold;
+  font-size:50px;
+  text-align:center;
+  font-style:arial;
+  padding-bottom:46x;
+}
+.f{
+  font-size:19px;
+  margin-top:30px;
+}
+.btop{
+  text-align:center;
+}
+.have{
+  font-size:48px;
+  font-weight:bold;
+}
+.let{
+  font-size:18px;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+.tre{
+  font-size:18px;
+  
+}
+.n{
+  margin-bottom: 20px;
+  width:400px;
+  height:40px;
+  padding-left:10px;
+  border-radius: 5px;
+  border-style: solid;
+}
+.bot{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+}
+.ui{
+  padding-bottom:70px;
+}
+.cul{
+  font-size:18.5px;
+  padding:26px 15px;
+  text-align:center;
+  border: 3px solid #73AD21;
+  box-shadow:10px 10px lightblue;
+}
+.gm{
+  width:640px;
+  height:480px;
+  margin-bottom:70px;
+}
+.events{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+}
+.bud{
+  margin-right:10px;
+  margin-bottom:70px;
+}
+.sub{
+  background-color:#14B8A6;
+  font-size:16px;
+  padding-right:100px;
+  padding-left:100px;
+  padding-top:12px;
+  border:solid;
+  padding-bottom:12px;
+  margin-top:30px;
+  margin-bottom:50px;
+  border-radius:8px;
+  color:white;
+  font-weight:bold;
+}
+.sub:hover{
+  color:#14B8A6;
+  background-color:white;
+  transition:background-color 0.3s;
+}
